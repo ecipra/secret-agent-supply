@@ -70,5 +70,42 @@ nav .container {
 nav a {
   color: inherit;
   text-decoration: none;
+}
 
+.product-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  width: 960px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border: 4px solid black;
+}
+
+.product img {
+  height: 9rem;
+  margin: 2rem 0;
+}
+
+.img-portrait {
+  max-height: 100%;
+  width: auto;
+}
+
+.img-landscape {
+  height: auto;
+  max-width: 100%;
+}
+
+.product h3 {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
 }
