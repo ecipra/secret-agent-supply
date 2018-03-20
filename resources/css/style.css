@@ -43,7 +43,7 @@ header h1 {
 
 .hero {
   height: 25rem;
-  background-image: url(/resources/images/moto.jpeg);
+  background-image: url(resources/images/moto.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
 }
